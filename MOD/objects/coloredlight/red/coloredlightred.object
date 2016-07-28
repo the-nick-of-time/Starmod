@@ -1,0 +1,39 @@
+{
+  "objectName" : "coloredlightred",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Stop, says the red light",
+  "shortdescription" : "Red Stoplight",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 45,
+  "lightColor" : [220, 0, 0],
+
+  "inventoryIcon" : "coloredlightredicon.png",
+  "orientations" : [
+    {
+      "image" : "coloredlightred.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "coloredlightred.png",
+    "fg" : "coloredlightred.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

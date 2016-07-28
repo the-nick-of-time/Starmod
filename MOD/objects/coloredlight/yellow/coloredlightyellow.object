@@ -1,0 +1,39 @@
+{
+  "objectName" : "coloredlightyellow",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Wait, says the yellow light, twinkling in between.",
+  "shortdescription" : "Yellow Stoplight",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 45,
+  "lightColor" : [220, 220, 0],
+
+  "inventoryIcon" : "coloredlightyellowicon.png",
+  "orientations" : [
+    {
+      "image" : "coloredlightyellow.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "coloredlightyellow.png",
+    "fg" : "coloredlightyellow.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}

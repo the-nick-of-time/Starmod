@@ -1,0 +1,8 @@
+{
+"input":[
+{"item": "outpostlight", "count": 4},
+{"item": "yellowdye", "count": 1}
+],
+"output":{"item": "coloredlightyellow", "count": 4},
+"groups":["craftingtable", "objects", "all"]
+}

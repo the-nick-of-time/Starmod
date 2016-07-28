@@ -1,0 +1,11 @@
+{
+	"name" : "myown",
+	"version" : "Beta v. Glad Giraffe",
+	"path" : ".",
+	"metadata" : {
+		"displayName" : "My Fixes",
+		"author" : "the-nick-of-time",
+		"description" : "I know what you did.",
+		"version" : "0.3"
+	}
+}

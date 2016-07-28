@@ -1,0 +1,39 @@
+{
+  "objectName" : "coloredlightgreen",
+  "colonyTags" : ["light"],
+  "rarity" : "Common",
+  "description" : "Go, says the green",
+  "shortdescription" : "Green Stoplight",
+  "race" : "generic",
+
+  "category" : "light",
+  "price" : 45,
+  "lightColor" : [0, 220, 0],
+
+  "inventoryIcon" : "coloredlightgreenicon.png",
+  "orientations" : [
+    {
+      "image" : "coloredlightgreen.png:<color>.<frame>",
+      "imagePosition" : [-0, 0],
+      "animationPosition" : [0, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "coloredlightgreen.png",
+    "fg" : "coloredlightgreen.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inboundNodes" : [ [0, 0] ]
+}
