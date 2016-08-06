@@ -1,0 +1,9 @@
+{
+	"name" : "My Fixes",
+	"friendlyName": "Fixes",
+	"requires": [],
+	"includes": [],
+	"version": "1.0",
+	"author": "the-nick-of-time",
+	"description": "Shipping containers now have 256 slots\nGlitch Royal Bookcase has 24 slots\nCan craft red, yellow, and green versions of the simple wall light"
+}

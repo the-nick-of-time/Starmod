@@ -1,7 +1,7 @@
 [
-{
-"op": "replace",
-"path": "/slotCount",
-"value": 256
-}
+	{
+		"op": "replace",
+		"path": "/slotCount",
+		"value": 256
+	}
 ]

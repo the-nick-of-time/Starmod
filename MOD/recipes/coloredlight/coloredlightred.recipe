@@ -1,8 +1,21 @@
 {
-"input":[
-{"item": "outpostlight", "count": 4},
-{"item": "reddye", "count": 1}
-],
-"output":{"item": "coloredlightred", "count": 4},
-"groups":["craftingtable", "objects", "all"]
+  "input": [
+    {
+      "item": "outpostlight",
+      "count": 4
+    },
+    {
+      "item": "reddye",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "coloredlightred",
+    "count": 4
+  },
+  "groups": [
+    "craftingtable",
+    "objects",
+    "all"
+  ]
 }
