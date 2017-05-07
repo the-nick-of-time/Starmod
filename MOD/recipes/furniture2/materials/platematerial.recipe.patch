@@ -1,0 +1,12 @@
+[
+	{
+		"op": "replace",
+		"path": "/input",
+		"value": [{"item": "metallic", "count": 1}]
+	},
+	{
+		"op": "replace",
+		"path": "/output",
+		"value": {"item": "platematerial", "count": 10}
+	}
+]
