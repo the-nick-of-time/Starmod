@@ -1,0 +1,49 @@
+[
+  {
+    "op": "add",
+    "path": "/gui/icQuickstackButton",
+    "value": {
+      "type": "button",
+      "base": "/interface/chests/quickstack.png",
+      "hover": "/interface/chests/quickstackhover.png",
+      "press": "/interface/chests/quickstack.png",
+      "position": [
+        300,
+        12
+      ],
+      "disabled": false,
+      "callback": "ic.quickstack"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSortButton",
+    "value": {
+      "type": "button",
+      "base": "/interface/chests/sort.png",
+      "hover": "/interface/chests/sorthover.png",
+      "press": "/interface/chests/sortpress.png",
+      "position": [
+        315,
+        12
+      ],
+      "disabled": false,
+      "callback": "ic.sort"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/scriptWidgetCallbacks",
+    "value": [
+      "ic.sort",
+      "ic.quickstack"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scripts",
+    "value": [
+      "/scripts/v6/improvedcontainergui.lua"
+    ]
+  }
+]
