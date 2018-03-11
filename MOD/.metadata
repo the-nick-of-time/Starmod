@@ -1,6 +1,6 @@
 {
   "author" : "the-nick-of-time",
-  "description" : "Shipping containers now have 256 slots\n[With Improved Containers ONLY] Adds sort and quick stack functions to shipping containers\nGlitch Royal Bookcase has 24 slots\nCan craft red, yellow, and green versions of the simple wall light\nMetal coated trees drop metal coated wood, which can be used to craft metal plated blocks\nGlow merchants sell glow fiber",
+  "description" : "Shipping containers now have 256 slots\n[With Improved Containers ONLY] Adds sort and quick stack functions to shipping containers\nGlitch Royal Bookcase has 24 slots\nCan craft red, yellow, and green versions of the simple wall light\nMetal coated trees drop metal coated wood, which can be used to craft metal plated blocks\nGlow merchants sell glow fiber\nFoundry merchant sells cheap titanium",
   "includes" : [],
   "friendlyName" : "QOL++",
   "name" : "Things I thought needed fixing",
