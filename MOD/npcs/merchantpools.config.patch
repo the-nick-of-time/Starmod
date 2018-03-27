@@ -13,5 +13,35 @@
     "op": "add",
     "path": "/foundrymerchant/0/1/2/price",
     "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/springmerchant/0/1/0",
+    "value": {
+      "item": {
+        "name": "petalblue"
+      },
+      "price": 5
+    }
+  },
+  {
+    "op": "add",
+    "path": "/springmerchant/0/1/0",
+    "value": {
+      "item": {
+        "name": "petalyellow"
+      },
+      "price": 5
+    }
+  },
+  {
+    "op": "add",
+    "path": "/springmerchant/0/1/0",
+    "value": {
+      "item": {
+        "name": "petalred"
+      },
+      "price": 5
+    }
   }
 ]
