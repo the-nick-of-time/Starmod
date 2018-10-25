@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 2 }
+  ],
+  "output" : { "item" : "salvagebody", "count" : 1 },
+  "duration" : 1,
+  "groups"  : [ "mechpartcraftingtable", "bars", "all" ]
+}

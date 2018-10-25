@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 1 },
+    { "item" : "goldbar", "count" : 2 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { "item" : "salvagetier6", "count" : 1 },
+  "duration" : 1,
+  "groups"  : [ "mechpartcraftingtable", "bars", "all" ]
+}

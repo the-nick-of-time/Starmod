@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 10 },
+    { "item" : "fuel", "count" : 40 },
+    { "item" : "tungstenbar", "count" : 20}
+  ],
+  "output" : {
+    "item" : "mechpartcraftingtable",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "inventorstable2", "craftingstations", "all" ]
+}
