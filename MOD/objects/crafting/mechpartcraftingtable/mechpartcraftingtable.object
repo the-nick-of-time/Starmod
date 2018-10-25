@@ -31,10 +31,10 @@
   "hylotlDescription" : "An iron crafting table can be used to craft some good equipment with.",
   "novakidDescription" : "A good ol' iron crafting table. It's better than a wooden one.",
 
-  "inventoryIcon" : "ironcraftingtableicon.png",
+  "inventoryIcon" : "mechpartcraftingtableicon.png",
   "orientations" : [
     {
-      "dualImage" : "ironcraftingtable.png:<color>",
+      "dualImage" : "mechpartcraftingtable.png",
 
       "imagePosition" : [-16, 0],
       "frames" : 1,
