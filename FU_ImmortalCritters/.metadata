@@ -4,6 +4,6 @@
   "includes" : [],
   "friendlyName" : "FU Immortal Critters",
   "name" : "FUcritters",
-  "requires" : ["immortalcritters"],
+  "requires" : ["immortalcritters", "FrackinUniverse"],
   "version" : "1.0"
 }
