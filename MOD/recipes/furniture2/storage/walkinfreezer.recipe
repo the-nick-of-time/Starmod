@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 10 },
+    { "item" : "cryonicextract", "count" : 4 },
+    { "item" : "staticcell", "count" : 4 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "walkinfreezer",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurniture2", "storage", "all" ]
+}
