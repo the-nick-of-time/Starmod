@@ -23,13 +23,13 @@
   "category" : "crafting",
   "price" : 30,
 
-  "apexDescription" : "A crafting table for ironwork.",
-  "avianDescription" : "This crafting table enables me to create a wide range of equipment.",
+  "apexDescription" : "A crafting table for working with mechs.",
+  "avianDescription" : "This crafting table enables me to create equipment for mechs.",
   "floranDescription" : "Iron table for making thingsss.",
-  "glitchDescription" : "Interested. It's an iron crafting table. It's better than a wooden one.",
+  "glitchDescription" : "Interested. It's an iron crafting table. It'll let me make mech parts.",
   "humanDescription" : "I'm not scared of some DIY. Let's do this.",
-  "hylotlDescription" : "An iron crafting table can be used to craft some good equipment with.",
-  "novakidDescription" : "A good ol' iron crafting table. It's better than a wooden one.",
+  "hylotlDescription" : "This specialized crafting table can be used to make some good equipment.",
+  "novakidDescription" : "A good ol' iron crafting table. It'll let me make mech parts.",
 
   "inventoryIcon" : "mechpartcraftingtableicon.png",
   "orientations" : [
