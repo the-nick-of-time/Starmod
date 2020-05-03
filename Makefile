@@ -2,12 +2,12 @@ sb_bin_dir = ~/games/starbound/linux
 sb_assets_dir = ~/games/starbound/assets
 sb_mods_dir = ~/games/starbound/mods
 
-build: build/Fixes.pak build/FU_ImmortalCritters.pak
+build: build/QOL++.pak build/FU_ImmortalCritters.pak
 
 
-build/Fixes.pak: $(shell find ./MOD/ -type f)
+build/QOL++.pak: $(shell find ./QOL++/src/ -type f)
 	mkdir -p build
-	$(sb_bin_dir)/asset_packer ./MOD/ $@
+	$(sb_bin_dir)/asset_packer ./QOL++/src/ $@
 
 build/FU_ImmortalCritters.pak: $(shell find ./FU_ImmortalCritters/ -type f)
 	mkdir -p build
@@ -25,8 +25,8 @@ clean:
 clean-assets:
 	rm -rf unpacked/
 
-install-core: build/Fixes.pak
-	cp build/Fixes.pak $(sb_mods_dir)/
+install-core: build/QOL++.pak
+	cp build/QOL++.pak $(sb_mods_dir)/
 	cp dependencies/improved_containers.pak $(sb_mods_dir)/
 
 install-fu: build/FU_ImmortalCritters.pak
