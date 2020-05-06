@@ -1,6 +1,6 @@
-sb_bin_dir = ~/games/starbound/linux
-sb_assets_dir = ~/games/starbound/assets
-sb_mods_dir = ~/games/starbound/mods
+sb_bin_dir = ~/games/starbound/starbound/linux
+sb_assets_dir = ~/games/starbound/starbound/assets
+sb_mods_dir = ~/games/starbound/starbound/mods
 
 build: build/QOL++.pak build/FU_ImmortalCritters.pak
 
@@ -35,6 +35,7 @@ install-fu: build/FU_ImmortalCritters.pak build/FrackinUniverse.pak
 	cp $^ $(sb_mods_dir)/
 
 download-fu:
+	rm -rf dependencies/FrackinUniverse
 	curl https://api.github.com/repos/sayterdarkwynd/FrackinUniverse/releases/latest \
 		| jq '.tarball_url' \
 		| xargs curl -L \
