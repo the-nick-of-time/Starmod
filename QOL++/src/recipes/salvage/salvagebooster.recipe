@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "titaniumbar", "count" : 1 },
-    { "item" : "fuel", "count" : 10 }
+    { "item" : "liquidfuel", "count" : 10 }
   ],
   "output" : { "item" : "salvagebooster", "count" : 1 },
   "duration" : 1,
