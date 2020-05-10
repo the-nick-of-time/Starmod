@@ -1,0 +1,44 @@
+{
+  "objectName" : "timefridge",
+  "colonyTags" : ["novakid","novakidvillage","storage"],
+  "rarity" : "Common",
+  "category" : "storage",
+  "price" : 90,
+  "description" : "A small box that seems to warp time strangely.",
+  "shortdescription" : "Time fridge",
+  "race" : "novakid",
+  "health" : 3.5,
+
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "apexDescription" : "The erchius crystals lining this box seem to cause odd effects on its contents.",
+  "avianDescription" : "The box is lined with erchius crystals, making it feel eerie.",
+  "floranDescription" : "Box feelsss tingly.",
+  "glitchDescription" : "Perturbed. This box disturbs the flow of time.",
+  "humanDescription" : "Okay what the heck is this.",
+  "hylotlDescription" : "Looking inside this box makes my eyes itch.",
+  "novakidDescription" : "When I stick my head inside, I feel young again!",
+
+  "inventoryIcon" : "timefridgeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "timefridge.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "itemAgeMultiplier": -5.0,
+  "autoCloseCooldown" : 3600,
+  "soundEffect" : "/sfx/objects/reversed_clock.ogg",
+  "soundEffectRangeMultiplier" : 0.5
+}
