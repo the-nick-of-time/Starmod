@@ -1,6 +1,581 @@
 [
   {
     "op": "add",
+    "path": "/gui/icRenameButton",
+    "value": {
+      "type": "button",
+      "base": "/interface/chests/rename.png",
+      "hover": "/interface/chests/renamehover.png",
+      "press": "/interface/chests/rename.png",
+      "position": [
+        8,
+        12
+      ],
+      "disabled": true,
+      "callback": "ic.renameButton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icRenameBoxBg",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/textboxbg.png",
+      "position": [
+        21,
+        13
+      ],
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icRenameBox",
+    "value": {
+      "type": "textbox",
+      "regex": "[a-zA-Z0-9 '-.()^;#]{0,30}",
+      "position": [
+        24,
+        14
+      ],
+      "maxWidth": 48,
+      "callback": "null",
+      "escapeKey": "ic.renameButton",
+      "enterKey": "ic.renameThis",
+      "focus": false,
+      "hint": "New name",
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder1",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder2",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder3",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder4",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder5",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder6",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder7",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder8",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder9",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder10",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder11",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder12",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder13",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder14",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder15",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder16",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder17",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder18",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder19",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder20",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder21",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder22",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder23",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder24",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder25",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder26",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder27",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder28",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder29",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder30",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder31",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBorder32",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/searchborder.png",
+      "position": [
+        0,
+        0
+      ],
+      "zlevel": 2,
+      "mouseTransparent": true,
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchButton",
+    "value": {
+      "type": "button",
+      "base": "/interface/chests/search.png",
+      "hover": "/interface/chests/searchhover.png",
+      "press": "/interface/chests/search.png",
+      "position": [
+        22,
+        12
+      ],
+      "callback": "ic.searchButton"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBoxBg",
+    "value": {
+      "type": "image",
+      "file": "/interface/chests/textboxbg.png",
+      "position": [
+        34,
+        13
+      ],
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gui/icSearchBox",
+    "value": {
+      "type": "textbox",
+      "regex": "[a-zA-Z0-9 #]{0,30}",
+      "position": [
+        37,
+        14
+      ],
+      "maxWidth": 48,
+      "callback": "ic.searchBox",
+      "escapeKey": "ic.searchButton",
+      "enterKey": "ic.searchButton",
+      "focus": false,
+      "hint": "Search",
+      "visible": false
+    }
+  },
+  {
+    "op": "add",
     "path": "/gui/icQuickstackButton",
     "value": {
       "type": "button",

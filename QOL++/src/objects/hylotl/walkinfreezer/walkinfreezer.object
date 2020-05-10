@@ -40,5 +40,12 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "itemAgeMultiplier": 0.0,
-  "autoCloseCooldown" : 3600
+  "autoCloseCooldown" : 3600,
+  "smashOnBreak": true,
+  "scripts": [
+    "/scripts/v6/improvedcontainer.lua"
+  ],
+  "itemAgingScripts": [
+    "/scripts/v6/improvedcontainerrotting.lua"
+  ]
 }
