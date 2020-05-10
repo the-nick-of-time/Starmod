@@ -1,0 +1,25 @@
+{
+  "input": [
+    {
+      "item": "safe",
+      "count": 1
+    },
+    {
+      "item": "solidfuel",
+      "count": 12
+    },
+    {
+      "item": "teleportercore",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "timefridge",
+    "count": 1
+  },
+  "groups": [
+    "craftingtable",
+    "objects",
+    "all"
+  ]
+}
