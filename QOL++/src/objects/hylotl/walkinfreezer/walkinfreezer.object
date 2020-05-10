@@ -39,5 +39,6 @@
   "slotCount" : 256,
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
+  "itemAgeMultiplier": 0.0,
   "autoCloseCooldown" : 3600
 }

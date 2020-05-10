@@ -29,10 +29,10 @@ clean-assets:
 	rm -rf unpacked/
 
 install-core: build/QOL++.pak dependencies/improved_containers.pak
-	cp $^ $(sb_mods_dir)/
+	cp $^ "$(sb_mods_dir)/"
 
 install-fu: build/FU_ImmortalCritters.pak build/FrackinUniverse.pak
-	cp $^ $(sb_mods_dir)/
+	cp $^ "$(sb_mods_dir)/"
 
 download-fu:
 	rm -rf dependencies/FrackinUniverse
