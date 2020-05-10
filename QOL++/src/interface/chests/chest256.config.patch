@@ -611,7 +611,11 @@
     "path": "/scriptWidgetCallbacks",
     "value": [
       "ic.sort",
-      "ic.quickstack"
+      "ic.quickstack",
+      "ic.renameButton",
+      "ic.renameThis",
+      "ic.searchButton",
+      "ic.searchBox"
     ]
   },
   {
