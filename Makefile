@@ -11,7 +11,7 @@ build/QOL++.pak: $(shell find ./QOL++/src/ -type f)
 
 build/FU_ImmortalCritters.pak: $(shell find ./FU_ImmortalCritters/ -type f)
 	mkdir -p build
-	$(sb_bin_dir)/asset_packer ./FU_ImmortalCritters/ $@
+	$(sb_bin_dir)/asset_packer ./FU_ImmortalCritters/src/ $@
 
 build/FrackinUniverse.pak: ./dependencies/FrackinUniverse/.metadata
 	$(sb_bin_dir)/asset_packer ./dependencies/FrackinUniverse $@
