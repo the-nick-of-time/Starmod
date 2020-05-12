@@ -1,9 +1,0 @@
-{
-  "author" : "the-nick-of-time",
-  "description" : "Extends the effects of HaxoXD's Immortal Critters mod to the critters added by Frackin Universe",
-  "includes" : [],
-  "friendlyName" : "FU Immortal Critters",
-  "name" : "FUcritters",
-  "requires" : ["immortalcritters", "FrackinUniverse"],
-  "version" : "1.0"
-}
