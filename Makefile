@@ -41,8 +41,4 @@ install-fu: build/FU_ImmortalCritters.pak build/FrackinUniverse.pak
 	cp $^ "$(sb_mods_dir)/"
 
 download-fu:
-	rm -rf dependencies/FrackinUniverse
-	curl https://api.github.com/repos/sayterdarkwynd/FrackinUniverse/releases/latest \
-		| jq '.tarball_url' \
-		| xargs curl -L \
-		| tar -xz -C dependencies --strip-components=1 --one-top-level=FrackinUniverse
+	./update_fu.sh
