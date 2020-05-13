@@ -17,7 +17,7 @@ build/FrackinUniverse.pak: ./dependencies/FrackinUniverse/.metadata
 	mkdir -p build
 	$(sb_bin_dir)/asset_packer ./dependencies/FrackinUniverse $@
 
-build/ImmortalBugs.pak: $(shell find ./ImmortalBugs/src/ -type f)
+build/ImmortalBugs.pak: ImmortalBugs/src/monsters
 	mkdir -p build
 	$(sb_bin_dir)/asset_packer ./ImmortalBugs/src $@
 
