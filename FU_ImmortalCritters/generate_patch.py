@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import json
-import os
 from textwrap import dedent
 from pathlib import Path
 from typing import Container
