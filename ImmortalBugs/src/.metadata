@@ -1,0 +1,9 @@
+{
+  "friendlyName": "Immortal Bugs",
+  "name": "ImmortalBugs",
+  "description": "Extends the effects of HaxoXD's Immortal Critters mod to bugs\nAren't you just made sad when you're out collecting bugs when someone starts shooting you, and accidentally hits a bug? Have no fear, bugs are now immune to bullets! You aren't though, so you'd better get your bug and get out.",
+  "author": "the-nick-of-time",
+  "includes": [],
+  "version": "1.0",
+  "requires": []
+}
