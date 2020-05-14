@@ -3,7 +3,7 @@
     { "item" : "titaniumbar", "count" : 1 },
     { "item" : "liquidoil", "count" : 5 }
   ],
-  "output" : { "item" : "salvagebody", "count" : 1 },
+  "output" : { "item" : "salvagelegs", "count" : 1 },
   "duration" : 1,
   "groups"  : [ "mechpartcraftingtable", "all" ]
 }
