@@ -5,5 +5,5 @@
   ],
   "output" : { "item" : "salvagebody", "count" : 1 },
   "duration" : 1,
-  "groups"  : [ "mechpartcraftingtable", "bars", "all" ]
+  "groups"  : [ "mechpartcraftingtable", "all" ]
 }

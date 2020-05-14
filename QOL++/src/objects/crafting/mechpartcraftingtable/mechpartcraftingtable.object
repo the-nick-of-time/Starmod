@@ -4,13 +4,13 @@
   "rarity" : "Rare",
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingfurnace.config",
+    "config" : "/interface/windowconfig/crafting.config",
     "paneLayoutOverride" : {
       "windowtitle" : {
-        "title" : "  Mech Material Crafting Table",
+        "title" : "Mech Material Crafting Table",
         "subtitle" : "  Removing the grind",
         "icon" : {
-          "file" : "/interface/crafting/ironcraftingtable.png"
+          "file" : "/objects/crafting/mechpartcraftingtable/mechpartcraftingtableicon.png"
         }
       }
     },
