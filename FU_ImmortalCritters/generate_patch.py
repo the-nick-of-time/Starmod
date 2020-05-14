@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import json
+import itertools
 from textwrap import dedent
 from pathlib import Path
 from typing import Container
 
 
-def locate_critters(fu_root: Path) -> Container[Path]:
-    critters_dir = fu_root / 'monsters/critter'
+def locate_critters(fu_root: Path, relative_path: str) -> Container[Path]:
+    critters_dir = fu_root / relative_path
     return [critter.relative_to(fu_root) for critter in critters_dir.glob('**/*.monstertype')]
 
 
@@ -49,8 +50,9 @@ def main():
     here = Path(__file__).parent.absolute()
     fu_root = here.parent / 'dependencies/FrackinUniverse'
     src_root = here / 'src'
-    critters = locate_critters(fu_root)
-    for critter in critters:
+    critters = locate_critters(fu_root, 'monsters/critter')
+    bees = locate_critters(fu_root, 'monsters/bees')
+    for critter in itertools.chain(critters, bees):
         write_patch(src_root, critter)
     update_metadata(fu_root, src_root)
 
