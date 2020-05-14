@@ -40,9 +40,5 @@
   "itemAgeMultiplier": -5.0,
   "soundEffect" : "/sfx/objects/reversed_clock.ogg",
   "soundEffectRangeMultiplier" : 0.5,
-  "autoCloseCooldown" : 3600,
-  "smashOnBreak": true,
-  "scripts": [
-    "/scripts/v6/improvedcontainer.lua"
-  ]
+  "autoCloseCooldown" : 3600
 }

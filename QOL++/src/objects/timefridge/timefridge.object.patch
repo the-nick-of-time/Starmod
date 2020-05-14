@@ -1,0 +1,10 @@
+[
+	[
+		{"op":"test","path":"/scripts","inverse":true},
+		{"op":"add","path":"/scripts","value":[]}
+	],
+	[
+		{"op":"add","path":"/smashOnBreak","value":true},
+		{"op":"add","path":"/scripts/-","value":"/scripts/v6/improvedcontainer.lua"}
+	]
+]

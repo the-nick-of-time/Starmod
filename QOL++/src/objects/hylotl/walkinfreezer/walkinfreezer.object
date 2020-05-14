@@ -6,7 +6,7 @@
   "tooltipKind" : "container",
   "category" : "fridgeStorage",
   "description" : "A very large refrigerated shipping container.",
-  "shortdescription" : "Refrigerated Shipping Container",
+  "shortdescription" : "Walk-in Freezer",
   "race" : "hylotl",
   "price" : 750,
 
@@ -40,12 +40,5 @@
   "uiConfig" : "/interface/chests/chest<slots>.config",
   "frameCooldown" : 5,
   "itemAgeMultiplier": 0.0,
-  "autoCloseCooldown" : 3600,
-  "smashOnBreak": true,
-  "scripts": [
-    "/scripts/v6/improvedcontainer.lua"
-  ],
-  "itemAgingScripts": [
-    "/scripts/v6/improvedcontainerrotting.lua"
-  ]
+  "autoCloseCooldown" : 3600
 }
