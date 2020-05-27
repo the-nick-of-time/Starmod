@@ -5,5 +5,7 @@
     {"op": "add", "path": "/openSounds", "value": ["/sfx/objects/bookcase_open.ogg"]},
     {"op": "add", "path": "/closeSounds", "value": ["/sfx/objects/bookcase_close.ogg"]},
     {"op": "add", "path": "/frameCooldown", "value": 5},
-    {"op": "add", "path": "/autoCloseCooldown", "value": 3600}
+    {"op": "add", "path": "/autoCloseCooldown", "value": 3600},
+    {"op": "add", "path": "/objectType", "value": "container"},
+    {"op": "add", "path": "/tooltipKind", "value": "container"}
 ]
