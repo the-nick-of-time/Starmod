@@ -1,0 +1,9 @@
+[
+    {"op": "replace", "path": "/category", "value": "storage"},
+    {"op": "add", "path": "/slotCount", "value": 32},
+    {"op": "add", "path": "/uiConfig", "value": "/interface/chests/chest<slots>.config"},
+    {"op": "add", "path": "/openSounds", "value": ["/sfx/objects/bookcase_open.ogg"]},
+    {"op": "add", "path": "/closeSounds", "value": ["/sfx/objects/bookcase_close.ogg"]},
+    {"op": "add", "path": "/frameCooldown", "value": 5},
+    {"op": "add", "path": "/autoCloseCooldown", "value": 3600}
+]
