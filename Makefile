@@ -29,6 +29,13 @@ FU_ImmortalCritters/src/monsters FU_ImmortalCritters/src/.metadata: FU_ImmortalC
 ImmortalBugs/src/monsters: ImmortalBugs/generate_patch.py unpacked/
 	python3 $<
 
+$(sb_mods_dir)/%.pak: build/%.pak
+	cp "$<" "$@"
+
+# special case
+$(sb_mods_dir)/improved_containers.pak: dependencies/improved_containers.pak
+	cp "$<" "$@"
+
 
 .PHONY: clean clean-assets build install-core install-fu download-fu
 
@@ -41,11 +48,9 @@ clean:
 clean-assets:
 	rm -rf unpacked/
 
-install-core: build/QOL++.pak build/ImmortalBugs.pak dependencies/improved_containers.pak
-	cp $^ "$(sb_mods_dir)/"
+install-core: $(sb_mods_dir)/QOL++.pak $(sb_mods_dir)/ImmortalBugs.pak $(sb_mods_dir)/improved_containers.pak
 
-install-fu: build/FU_ImmortalCritters.pak build/FrackinUniverse.pak
-	cp $^ "$(sb_mods_dir)/"
+install-fu: $(sb_mods_dir)/FU_ImmortalCritters.pak $(sb_mods_dir)/FrackinUniverse.pak
 
 download-fu:
 	./update_fu.sh
