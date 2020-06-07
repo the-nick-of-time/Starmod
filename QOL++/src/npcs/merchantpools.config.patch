@@ -11,6 +11,16 @@
   },
   {
     "op": "add",
+    "path": "/oasismerchant/0/1/0",
+    "value": {
+      "item": {
+        "name": "reed"
+      },
+      "price": 5
+    }
+  },
+  {
+    "op": "add",
     "path": "/foundrymerchant/0/1/2/price",
     "value": 10
   },
