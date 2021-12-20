@@ -55,5 +55,5 @@ install-fu: $(sb_mods_dir)/FU_ImmortalCritters.pak $(sb_mods_dir)/FrackinUnivers
 download-fu:
 	./update_fu.sh
 
-upload:
-	~/bin/steamcmd.sh +login adenn1420 +workshop_build_item QOL++/steam_upload.vdf
+upload: build/QOL++.pak
+	~/bin/steamcmd.sh +login adenn1420 +workshop_build_item $(shell pwd)/QOL++/steam_upload.vdf +quit
