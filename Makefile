@@ -37,7 +37,7 @@ $(sb_mods_dir)/improved_containers.pak: dependencies/improved_containers.pak
 	cp "$<" "$@"
 
 
-.PHONY: clean clean-assets build install-core install-fu download-fu
+.PHONY: clean clean-assets build install-core install-fu download-fu upload
 
 clean:
 	rm -rf build/
@@ -54,3 +54,6 @@ install-fu: $(sb_mods_dir)/FU_ImmortalCritters.pak $(sb_mods_dir)/FrackinUnivers
 
 download-fu:
 	./update_fu.sh
+
+upload:
+	~/bin/steamcmd.sh +login adenn1420 +workshop_build_item QOL++/steam_upload.vdf

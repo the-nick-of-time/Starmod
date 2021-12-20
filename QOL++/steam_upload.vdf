@@ -1,0 +1,11 @@
+"workshopitem"
+{
+"appid"        "211820"
+"publishedfileid"    "1089247915"
+"contentfolder"    "/home/nthurmes/code/starmod/build"
+"previewfile"        "/home/nthurmes/code/starmod/QOL++/steam_icon.png"
+"visibility"        "0"
+"title"        "QOL++"
+"description"        "Shipping containers now have 256 slots\n[With Improved Containers ONLY] Adds sort and quick stack functions to shipping containers\nGlitch Royal Bookcase has 24 slots\nCan craft red, yellow, and green versions of the simple wall light\nMetal coated trees drop metal coated wood, which can be used to craft metal plated blocks\nGlow merchants sell glow fiber\nFoundry merchant sells cheap titanium\nBuy a crafting table from Penguin Pete where you can craft salvage materials for mechs - fixed\nAdd a refrigerated shipping container\nAdd a box that makes food get fresher\nThe alternate function of the magnorbs costs less\nAdd crafting recipes for furniture that used to be the high tier minerals"
+"changenote"        "Added crafting recipes for furniture that was once the high tier minerals"
+}
