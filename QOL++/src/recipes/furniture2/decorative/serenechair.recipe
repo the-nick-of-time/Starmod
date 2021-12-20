@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 2 },
+    { "item": "titaniumbar", "count": 1 }
+  ],
+  "output" : { "item" : "serenechair", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "decoration", "all" ]
+}

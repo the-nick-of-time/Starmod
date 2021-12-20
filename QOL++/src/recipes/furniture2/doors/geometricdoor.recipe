@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "apexshipwall", "count" : 5 },
+    { "item" : "shadowblock", "count" : 2 }
+  ],
+  "output" : { "item" : "geometricdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

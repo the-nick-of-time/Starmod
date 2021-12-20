@@ -1,6 +1,6 @@
-sb_bin_dir = ~/games/starbound/starbound/linux
-sb_assets_dir = ~/games/starbound/starbound/assets
-sb_mods_dir = ~/games/starbound/starbound/mods
+sb_bin_dir = ~/games/starbound/linux
+sb_assets_dir = ~/games/starbound/assets
+sb_mods_dir = ~/games/starbound/mods
 
 build: build/QOL++.pak build/FU_ImmortalCritters.pak build/ImmortalBugs.pak
 

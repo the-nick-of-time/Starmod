@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 1 },
+    { "item" : "apexshipwall", "count" : 5 },
+    { "item" : "crystal", "count" : 2 }
+  ],
+  "output" : { "item" : "opulentdoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 1 },
+    { "item" : "solariumstar", "count" : 1 },
+    { "item" : "apexshipwall", "count" : 5 },
+    { "item" : "oculemon", "count" : 2 }
+  ],
+  "output" : { "item" : "wavedoor", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

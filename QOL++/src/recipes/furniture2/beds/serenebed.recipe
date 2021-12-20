@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 2 },
+    { "item" : "silk", "count" : 6 }
+  ],
+  "output" : { "item" : "serenebed", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "beds", "all" ]
+}
+  
